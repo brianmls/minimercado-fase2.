@@ -1,0 +1,17 @@
+:root {
+  --cor-primaria: #0d6efd;
+  --cor-contraste: #0a58ca;
+}
+.carousel .carousel-item img {
+  max-height: 420px;
+  object-fit: cover;
+}
+.btn:focus, .form-control:focus, .form-select:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+}
+/* Alto contraste para acessibilidade em textos sobre imagens */
+.carousel-caption { text-shadow: 0 1px 2px rgba(0,0,0,.8); }
+/* Cartões */
+.card { border-radius: .75rem; }
+/* Melhorias de leitura */
+body { line-height: 1.6; }
